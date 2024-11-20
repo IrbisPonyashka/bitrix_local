@@ -1,0 +1,125 @@
+Host: crm.kostalegal.com:443
+Date: 2024-10-30 02:29:13
+Module: tasks
+DEBUG_TASKS
+array (
+  'message' => 'Для завершения задачи нужно оставить комментарий',
+  'file' => '/home/bitrix/www/local/php_interface/micros/events/onTask.php',
+  'line' => 58,
+  'backtrace' => '#0 /home/bitrix/www/bitrix/modules/main/tools.php(5246): Micros\\Events\\OnTasks\\taskHandler::onBeforeTaskUpdate()
+#1 /home/bitrix/www/bitrix/modules/tasks/lib/control/task.php(1212): ExecuteModuleEventEx()
+#2 /home/bitrix/www/bitrix/modules/tasks/lib/control/task.php(393): Bitrix\\Tasks\\Control\\Task->onBeforeUpdate()
+#3 /home/bitrix/www/bitrix/modules/tasks/classes/general/task.php(346): Bitrix\\Tasks\\Control\\Task->update()
+#4 /home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php(2229): CTasks->Update()
+#5 /home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php(2413): CTaskItem->proceedActionEdit()
+#6 /home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php(1664): CTaskItem->proceedAction()
+#7 /home/bitrix/www/bitrix/modules/tasks/lib/manager/task.php(417): CTaskItem->update()
+#8 /home/bitrix/www/bitrix/modules/tasks/lib/manager/task.php(351): Bitrix\\Tasks\\Manager\\Task::doUpdate()
+#9 /home/bitrix/www/bitrix/modules/tasks/lib/dispatcher/publicaction/task.php(265): Bitrix\\Tasks\\Manager\\Task::update()
+#10 [internal function]: Bitrix\\Tasks\\Dispatcher\\PublicAction\\Task->update()
+#11 /home/bitrix/www/bitrix/modules/tasks/lib/dispatcher/operation.php(91): call_user_func_array()
+#12 /home/bitrix/www/bitrix/modules/tasks/lib/dispatcher.php(309): Bitrix\\Tasks\\Dispatcher\\Operation->call()
+#13 /home/bitrix/www/bitrix/modules/tasks/lib/dispatcher.php(199): Bitrix\\Tasks\\Dispatcher->wrapOpCall()
+#14 /home/bitrix/www/bitrix/components/bitrix/tasks.base/class.php(498): Bitrix\\Tasks\\Dispatcher->run()
+#15 /home/bitrix/www/bitrix/components/bitrix/tasks.base/class.php(107): TasksBaseComponent::dispatch()
+#16 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(668): TasksBaseComponent->executeComponent()
+#17 /home/bitrix/www/bitrix/modules/main/classes/general/main.php(1188): CBitrixComponent->includeComponent()
+#18 /home/bitrix/www/bitrix/components/bitrix/tasks.iframe.popup/templates/wrap/template.php(261): CAllMain->IncludeComponent()
+#19 /home/bitrix/www/bitrix/modules/main/classes/general/component_template.php(790): include(\'...\')
+#20 /home/bitrix/www/bitrix/modules/main/classes/general/component_template.php(885): CBitrixComponentTemplate->__IncludePHPTemplate()
+#21 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(784): CBitrixComponentTemplate->IncludeTemplate()
+#22 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(724): CBitrixComponent->showComponentTemplate()
+#23 /home/bitrix/www/bitrix/components/bitrix/tasks.iframe.popup/component.php(118): CBitrixComponent->includeComponentTemplate()
+#24 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(615): include(\'...\')
+#25 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(692): CBitrixComponent->__includeComponent()
+#26 /home/bitrix/www/bitrix/modules/main/classes/general/main.php(1188): CBitrixComponent->includeComponent()
+#27 /home/bitrix/www/bitrix/components/bitrix/socialnetwork_user/templates/.default/user_tasks_task.php(81): CAllMain->IncludeComponent()
+#28 /home/bitrix/www/bitrix/modules/main/classes/general/component_template.php(790): include(\'...\')
+#29 /home/bitrix/www/bitrix/modules/main/classes/general/component_template.php(885): CBitrixComponentTemplate->__IncludePHPTemplate()
+#30 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(784): CBitrixComponentTemplate->IncludeTemplate()
+#31 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(724): CBitrixComponent->showComponentTemplate()
+#32 /home/bitrix/www/bitrix/components/bitrix/socialnetwork_user/component.php(1484): CBitrixComponent->includeComponentTemplate()
+#33 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(615): include(\'...\')
+#34 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(692): CBitrixComponent->__includeComponent()
+#35 /home/bitrix/www/bitrix/modules/main/classes/general/main.php(1188): CBitrixComponent->includeComponent()
+#36 /home/bitrix/www/company/personal.php(258): CAllMain->IncludeComponent()
+#37 /home/bitrix/www/bitrix/modules/main/include/urlrewrite.php(128): include_once(\'...\')
+#38 /home/bitrix/www/bitrix/urlrewrite.php(2): include_once(\'...\')
+#39 {main}',
+)
+#0: AddMessage2Log
+	/home/bitrix/www/bitrix/modules/tasks/lib/internals/log/log.php:92
+#1: Bitrix\Tasks\Internals\Log\Log->save
+	/home/bitrix/www/bitrix/modules/tasks/lib/internals/log/log.php:57
+#2: Bitrix\Tasks\Internals\Log\Log->collect
+	/home/bitrix/www/bitrix/modules/tasks/lib/internals/log/logfacade.php:24
+#3: Bitrix\Tasks\Internals\Log\LogFacade::logThrowable
+	/home/bitrix/www/bitrix/modules/tasks/classes/general/task.php:360
+#4: CTasks->Update
+	/home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php:2229
+#5: CTaskItem->proceedActionEdit
+	/home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php:2413
+----------
+Host: crm.kostalegal.com:443
+Date: 2024-11-05 00:55:13
+Module: tasks
+DEBUG_TASKS
+array (
+  'message' => 'Данная задача используется в 1 отчете',
+  'file' => '/home/bitrix/www/local/php_interface/micros/events/onTask.php',
+  'line' => 129,
+  'backtrace' => '#0 /home/bitrix/www/local/php_interface/micros/events/onTask.php(45): Micros\\Events\\OnTasks\\taskHandler::displayTaskBanMessage()
+#1 /home/bitrix/www/bitrix/modules/main/tools.php(5246): Micros\\Events\\OnTasks\\taskHandler::onBeforeTaskUpdate()
+#2 /home/bitrix/www/bitrix/modules/tasks/lib/control/task.php(1212): ExecuteModuleEventEx()
+#3 /home/bitrix/www/bitrix/modules/tasks/lib/control/task.php(393): Bitrix\\Tasks\\Control\\Task->onBeforeUpdate()
+#4 /home/bitrix/www/bitrix/modules/tasks/classes/general/task.php(346): Bitrix\\Tasks\\Control\\Task->update()
+#5 /home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php(2229): CTasks->Update()
+#6 /home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php(2413): CTaskItem->proceedActionEdit()
+#7 /home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php(1664): CTaskItem->proceedAction()
+#8 /home/bitrix/www/bitrix/modules/tasks/lib/manager/task.php(417): CTaskItem->update()
+#9 /home/bitrix/www/bitrix/modules/tasks/lib/manager/task.php(351): Bitrix\\Tasks\\Manager\\Task::doUpdate()
+#10 /home/bitrix/www/bitrix/modules/tasks/lib/dispatcher/publicaction/task.php(265): Bitrix\\Tasks\\Manager\\Task::update()
+#11 [internal function]: Bitrix\\Tasks\\Dispatcher\\PublicAction\\Task->update()
+#12 /home/bitrix/www/bitrix/modules/tasks/lib/dispatcher/operation.php(91): call_user_func_array()
+#13 /home/bitrix/www/bitrix/modules/tasks/lib/dispatcher.php(309): Bitrix\\Tasks\\Dispatcher\\Operation->call()
+#14 /home/bitrix/www/bitrix/modules/tasks/lib/dispatcher.php(199): Bitrix\\Tasks\\Dispatcher->wrapOpCall()
+#15 /home/bitrix/www/bitrix/components/bitrix/tasks.base/class.php(498): Bitrix\\Tasks\\Dispatcher->run()
+#16 /home/bitrix/www/bitrix/components/bitrix/tasks.base/class.php(107): TasksBaseComponent::dispatch()
+#17 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(668): TasksBaseComponent->executeComponent()
+#18 /home/bitrix/www/bitrix/modules/main/classes/general/main.php(1188): CBitrixComponent->includeComponent()
+#19 /home/bitrix/www/bitrix/components/bitrix/tasks.iframe.popup/templates/wrap/template.php(261): CAllMain->IncludeComponent()
+#20 /home/bitrix/www/bitrix/modules/main/classes/general/component_template.php(790): include(\'...\')
+#21 /home/bitrix/www/bitrix/modules/main/classes/general/component_template.php(885): CBitrixComponentTemplate->__IncludePHPTemplate()
+#22 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(784): CBitrixComponentTemplate->IncludeTemplate()
+#23 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(724): CBitrixComponent->showComponentTemplate()
+#24 /home/bitrix/www/bitrix/components/bitrix/tasks.iframe.popup/component.php(118): CBitrixComponent->includeComponentTemplate()
+#25 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(615): include(\'...\')
+#26 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(692): CBitrixComponent->__includeComponent()
+#27 /home/bitrix/www/bitrix/modules/main/classes/general/main.php(1188): CBitrixComponent->includeComponent()
+#28 /home/bitrix/www/bitrix/components/bitrix/socialnetwork_user/templates/.default/user_tasks_task.php(81): CAllMain->IncludeComponent()
+#29 /home/bitrix/www/bitrix/modules/main/classes/general/component_template.php(790): include(\'...\')
+#30 /home/bitrix/www/bitrix/modules/main/classes/general/component_template.php(885): CBitrixComponentTemplate->__IncludePHPTemplate()
+#31 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(784): CBitrixComponentTemplate->IncludeTemplate()
+#32 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(724): CBitrixComponent->showComponentTemplate()
+#33 /home/bitrix/www/bitrix/components/bitrix/socialnetwork_user/component.php(1484): CBitrixComponent->includeComponentTemplate()
+#34 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(615): include(\'...\')
+#35 /home/bitrix/www/bitrix/modules/main/classes/general/component.php(692): CBitrixComponent->__includeComponent()
+#36 /home/bitrix/www/bitrix/modules/main/classes/general/main.php(1188): CBitrixComponent->includeComponent()
+#37 /home/bitrix/www/company/personal.php(258): CAllMain->IncludeComponent()
+#38 /home/bitrix/www/bitrix/modules/main/include/urlrewrite.php(128): include_once(\'...\')
+#39 /home/bitrix/www/bitrix/urlrewrite.php(2): include_once(\'...\')
+#40 {main}',
+)
+#0: AddMessage2Log
+	/home/bitrix/www/bitrix/modules/tasks/lib/internals/log/log.php:92
+#1: Bitrix\Tasks\Internals\Log\Log->save
+	/home/bitrix/www/bitrix/modules/tasks/lib/internals/log/log.php:57
+#2: Bitrix\Tasks\Internals\Log\Log->collect
+	/home/bitrix/www/bitrix/modules/tasks/lib/internals/log/logfacade.php:24
+#3: Bitrix\Tasks\Internals\Log\LogFacade::logThrowable
+	/home/bitrix/www/bitrix/modules/tasks/classes/general/task.php:360
+#4: CTasks->Update
+	/home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php:2229
+#5: CTaskItem->proceedActionEdit
+	/home/bitrix/www/bitrix/modules/tasks/classes/general/taskitem.php:2413
+----------

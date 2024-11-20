@@ -1,0 +1,13 @@
+
+#workarea-content {
+    background-color: #fff0;
+}
+#uiToolbarContainer .ui-toolbar-filter-box {
+    flex-grow: inherit;
+}
+#uiToolbarContainer .ui-toolbar-right-buttons {
+    margin-left: inherit;
+}
+.ui-form-row .ui-form-content {
+    width: 320px;
+}

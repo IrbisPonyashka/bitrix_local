@@ -1,0 +1,247 @@
+\-------TASK___---------
+Array
+(
+    [0] => 74
+    [1] => Array
+        (
+            [FLOW_ID] => 0
+            [PRIORITY] => 1
+            [TITLE] => testset
+            [DESCRIPTION] => testestsedawd
+            [UF_TASK_WEBDAV_FILES] => Array
+                (
+                    [0] => 
+                )
+
+            [DEADLINE] => 
+            [START_DATE_PLAN] => 
+            [DURATION_TYPE] => days
+            [END_DATE_PLAN] => 
+            [ALLOW_CHANGE_DEADLINE] => 1
+            [MATCH_WORK_TIME] => 
+            [TASK_CONTROL] => 
+            [SE_PARAMETER] => Array
+                (
+                    [1] => Array
+                        (
+                            [VALUE] => N
+                            [ID] => 319
+                            [CODE] => 1
+                        )
+
+                    [2] => Array
+                        (
+                            [VALUE] => N
+                            [ID] => 320
+                            [CODE] => 2
+                        )
+
+                    [3] => Array
+                        (
+                            [VALUE] => N
+                            [ID] => 321
+                            [CODE] => 3
+                        )
+
+                )
+
+            [SE_PROJECT] => Array
+                (
+                    [ID] => 0
+                )
+
+            [ALLOW_TIME_TRACKING] => N
+            [TIME_ESTIMATE] => 0
+            [UF_BILLABLE] => 36
+            [UF_INVOICE_STATUS] => 41
+            [REPLICATE] => 
+            [SE_PARENTTASK] => Array
+                (
+                    [ID] => 
+                )
+
+            [EPIC] => 0
+            [CREATED_BY] => 1
+            [AUDITORS] => Array
+                (
+                )
+
+            [ACCOMPLICES] => Array
+                (
+                )
+
+            [TAGS] => Array
+                (
+                )
+
+            [CHECKLIST] => Array
+                (
+                )
+
+            [DEPENDS_ON] => Array
+                (
+                )
+
+            [PARENT_ID] => 
+            [GROUP_ID] => 0
+            [RESPONSIBLE_ID] => 1
+            [OUTLOOK_VERSION] => 5
+            [CHANGED_BY] => 1
+            [CHANGED_DATE] => 05.11.2024 10:58:26
+        )
+
+    [2] => Array
+        (
+            [ID] => 74
+            [TITLE] => testset
+            [DESCRIPTION] => testestsed
+            [DESCRIPTION_IN_BBCODE] => Y
+            [DECLINE_REASON] => 
+            [PRIORITY] => 1
+            [NOT_VIEWED] => N
+            [STATUS_COMPLETE] => 1
+            [REAL_STATUS] => 2
+            [MULTITASK] => N
+            [STAGE_ID] => 0
+            [RESPONSIBLE_ID] => 1
+            [RESPONSIBLE_NAME] => Admin
+            [RESPONSIBLE_LAST_NAME] => Admin
+            [RESPONSIBLE_SECOND_NAME] => 
+            [RESPONSIBLE_LOGIN] => admin
+            [RESPONSIBLE_WORK_POSITION] => Admin
+            [RESPONSIBLE_PHOTO] => 
+            [DATE_START] => 
+            [DURATION_FACT] => 
+            [TIME_ESTIMATE] => 0
+            [TIME_SPENT_IN_LOGS] => 
+            [REPLICATE] => N
+            [DEADLINE] => 
+            [DEADLINE_ORIG] => 
+            [START_DATE_PLAN] => 
+            [END_DATE_PLAN] => 
+            [CREATED_BY] => 1
+            [CREATED_BY_NAME] => Admin
+            [CREATED_BY_LAST_NAME] => Admin
+            [CREATED_BY_SECOND_NAME] => 
+            [CREATED_BY_LOGIN] => admin
+            [CREATED_BY_WORK_POSITION] => Admin
+            [CREATED_BY_PHOTO] => 
+            [CREATED_DATE] => 30.10.2024 12:38:32
+            [CHANGED_BY] => 1
+            [CHANGED_DATE] => 05.11.2024 10:53:33
+            [STATUS_CHANGED_BY] => 
+            [CLOSED_BY] => 
+            [CLOSED_DATE] => 
+            [ACTIVITY_DATE] => 30.10.2024 12:38:32
+            [GUID] => {98afd149-0caa-42e7-813c-32dd53b9209c}
+            [XML_ID] => 
+            [MARK] => 
+            [ALLOW_CHANGE_DEADLINE] => Y
+            [ALLOW_TIME_TRACKING] => N
+            [MATCH_WORK_TIME] => N
+            [TASK_CONTROL] => N
+            [ADD_IN_REPORT] => N
+            [FORUM_TOPIC_ID] => 
+            [PARENT_ID] => 0
+            [COMMENTS_COUNT] => 
+            [SERVICE_COMMENTS_COUNT] => 
+            [FORUM_ID] => 
+            [SITE_ID] => s1
+            [SUBORDINATE] => N
+            [EXCHANGE_MODIFIED] => 
+            [EXCHANGE_ID] => 
+            [OUTLOOK_VERSION] => 4
+            [VIEWED_DATE] => 05.11.2024 10:58:25
+            [DEADLINE_COUNTED] => 0
+            [FORKED_BY_TEMPLATE_ID] => 
+            [SORTING] => 
+            [DURATION_PLAN_SECONDS] => 0
+            [DURATION_TYPE_ALL] => days
+            [SCENARIO_NAME] => Array
+                (
+                    [0] => default
+                )
+
+            [IS_REGULAR] => N
+            [FLOW_ID] => 
+            [IS_MUTED] => N
+            [IS_PINNED] => N
+            [IS_PINNED_IN_GROUP] => N
+            [UF_CRM_TASK] => 
+            [UF_MAIL_MESSAGE] => 
+            [UF_BILLABLE] => 36
+            [UF_INVOICE_STATUS] => 41
+            [STATUS] => 2
+            [STATUS_CHANGED_DATE] => 05.11.2024 10:53:33
+            [DURATION_PLAN] => 0
+            [DURATION_TYPE] => days
+            [FAVORITE] => N
+            [GROUP_ID] => 0
+            [AUDITORS] => Array
+                (
+                )
+
+            [ACCOMPLICES] => Array
+                (
+                )
+
+            [TAGS] => Array
+                (
+                )
+
+            [CHECKLIST] => Array
+                (
+                )
+
+            [FILES] => Array
+                (
+                )
+
+            [DEPENDS_ON] => Array
+                (
+                )
+
+        )
+
+)
+
+05.11.2024 00:58:26
+--------------------
+
+
+\-------TESTSET---------
+74
+05.11.2024 00:53:33
+--------------------
+
+
+\-------TESTSET---------
+71
+30.10.2024 02:31:13
+--------------------
+
+
+\-------TESTSET---------
+71
+30.10.2024 02:29:13
+--------------------
+
+
+\-------TESTSET---------
+71
+30.10.2024 02:25:59
+--------------------
+
+
+\-------TESTSET---------
+71
+30.10.2024 02:25:37
+--------------------
+
+
+\-------arFields---------
+2
+25.07.2024 07:25:35
+--------------------
+
+
