@@ -17,6 +17,15 @@ $eventManager = \Bitrix\Main\EventManager::getInstance();
  *     $eventManager->addEventHandlerCompatible( #module#, #handler#, [#namespace#, #function#]);
  */
 
+/* подключение js модуля */
+$eventManager->addEventHandlerCompatible(
+    'main',
+    'OnEpilog',
+    [
+        "\\irbisPonyashka\\Crm\\Request\\Page",
+        "handleEpilog"
+    ]
+);
 
 $eventManager->addEventHandler(
 	'main',
